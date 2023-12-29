@@ -1,0 +1,24 @@
+h1 {
+  font-family: 'Roboto Mono';
+}
+
+.image-card {
+  margin-bottom: 7%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.image-card img {
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 2s;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+.image-card img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
